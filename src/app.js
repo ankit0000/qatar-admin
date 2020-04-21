@@ -10,6 +10,7 @@ class App extends Component {
     super();
     this.state = {
       title: 'this is the App master chnage_1',
+      test_3: 'test_3',
     };
   }
 
