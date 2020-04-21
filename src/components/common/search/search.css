@@ -1,0 +1,13 @@
+.button {
+  background-color: blue;
+  border-radius: 12px;
+  color: white;
+}
+
+.button-conatiner {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.button-item {
+}
