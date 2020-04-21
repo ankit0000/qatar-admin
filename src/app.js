@@ -1,5 +1,5 @@
-import React, { Component } from "react";
-import ReactDOM from "react-dom";
+import React, { Component } from 'react';
+import ReactDOM from 'react-dom';
 import './app.css';
 import Routes from './router';
 import Login from '../src/components/login/login';
@@ -9,22 +9,14 @@ class App extends Component {
   constructor() {
     super();
     this.state = {
-      title: "this is the App"
+      title: 'this is the App test_2',
     };
   }
 
-
   render() {
-    return (
-      
-      <Routes>
-     
-    </Routes>
-   
-    );
+    return <Routes></Routes>;
   }
 }
 
-
-const wrapper = document.getElementById("app");
+const wrapper = document.getElementById('app');
 wrapper ? ReactDOM.render(<App />, wrapper) : false;
