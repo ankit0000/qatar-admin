@@ -9,7 +9,7 @@ class App extends Component {
   constructor() {
     super();
     this.state = {
-      title: 'this is the App master chnage_5',
+      title: 'this is the App master chnage_6',
       test_3: 'test_3',
       title1: 'this is the App master title1',
       t: 't',
